@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import requests
 from bs4 import BeautifulSoup
 
+name = "PARcer"
 app = Flask(__name__)
 
 def parse_site(url):
